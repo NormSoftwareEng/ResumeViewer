@@ -60,6 +60,7 @@
     <Content Include="404.html" />
     <Content Include="apple-touch-icon-precomposed.png" />
     <Content Include="crossdomain.xml" />
+    <Content Include="css\gt.png" />
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
     <Content Include="favicon.ico" />
