@@ -118,8 +118,8 @@ article {
     
 }
 section {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: .769em;
+    margin-right: .769em;
     margin-top: 0px;
     font-size: .813em;
     max-width: 61.308em;
@@ -128,20 +128,21 @@ section {
 }
 
 .header {
+    font-size: 13px;
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 110px;
+    height: 8.462em;
     background-color: white;
-    max-width: 61.308em;
+    max-width: 62.846em;
     margin: 0px;
     border-top: 1px solid rgb(181, 181, 181);
 }
 
 .header h6, .header h5, .header h4 {
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: .385em;
+    margin-bottom: .385em;
 }
 .overview {
     max-width: 46.154em;
@@ -155,7 +156,7 @@ section {
 .EmployerCallout {
     text-align: right;
     font-size: 1.077em;
-    margin-top: 15px;
+    margin-top: 1.071em;
 }
 .employmentDates {
     margin-left: .25em;
@@ -169,7 +170,7 @@ section {
 }
 .experience li {
     border: 1px solid #FFF;
-    margin-right: 10px;
+    margin-right: .769em;
     list-style-image: url(gt.png);
     list-style-position: outside;
     
@@ -196,20 +197,20 @@ section {
 .jobTitle {
     font-size: 1em;
     font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: .385em;
+    margin-bottom: 1.154em;
     border-bottom: 1px solid #ccc;
 }
 
 .education {
-    margin-left:30px;
+    margin-left:2.308em;
 }
 .education h4 {
-    margin-bottom: 5px;
+    margin-bottom: .385em;
 }
 .education ul {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: .385em;
+    margin-bottom: .385em;
 }
 .education li {
     list-style-image: url(gt.png);
@@ -217,13 +218,16 @@ section {
 }
 .skillsetion {
     max-width: 61.308em;
+    -ms-word-wrap: normal;
+    word-wrap: normal;
+    white-space: normal;
 }
 
 .skill
 {
     background-color: #EEEEEE;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: .385em;
     line-height: 1.6;
 }
 
