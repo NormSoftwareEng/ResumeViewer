@@ -20,7 +20,7 @@ textarea {
 
 
 html {
-    font-size: 14px;
+    font-size: 1em;
     line-height: 1.4;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 article {
     background-color: white;
-    max-width: 8.5in;
+    max-width: 51.063em;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: auto;
@@ -114,15 +114,15 @@ article {
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 1px;
+    height: .063em;
     
 }
 section {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 0px;
-    font-size: 13px;
-    max-width: 8.3in;
+    font-size: .813em;
+    max-width: 61.308em;
     background-color: white;
     width: 100%;
 }
@@ -133,7 +133,7 @@ section {
     width: 100%;
     height: 110px;
     background-color: white;
-    max-width: 8.3in;
+    max-width: 61.308em;
     margin: 0px;
     border-top: 1px solid rgb(181, 181, 181);
 }
@@ -144,7 +144,7 @@ section {
     margin-bottom: 5px;
 }
 .overview {
-    max-width: 600px;
+    max-width: 46.154em;
     margin-right: auto;
     margin-left: auto;
 }
@@ -154,7 +154,7 @@ section {
 
 .EmployerCallout {
     text-align: right;
-    font-size: 14px;
+    font-size: 1.077em;
     margin-top: 15px;
 }
 .employmentDates {
@@ -165,7 +165,7 @@ section {
     content: "| ";
 }
 .experience {
-    font-size: 13px;
+    font-size: 1em;
 }
 .experience li {
     border: 1px solid #FFF;
@@ -188,13 +188,13 @@ section {
 */
 }
 .jobSummary {
-    font-size: 13px;
+    font-size: 1em;
         margin-right: auto;
     margin-left: auto;
-    max-width: 600px;
+    max-width: 46.154em;
 }
 .jobTitle {
-    font-size: 13px;
+    font-size: 1em;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -215,6 +215,10 @@ section {
     list-style-image: url(gt.png);
     
 }
+.skillsetion {
+    max-width: 61.308em;
+}
+
 .skill
 {
     background-color: #EEEEEE;
