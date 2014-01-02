@@ -64,6 +64,7 @@
     <Content Include="css\gt.png" />
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
+    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="humans.txt" />
     <Content Include="img\.gitignore" />
@@ -73,9 +74,18 @@
     <Content Include="js\vendor\jquery-1.10.2.min.js" />
     <Content Include="js\vendor\modernizr-2.6.2.min.js" />
     <Content Include="robots.txt" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +104,7 @@
     <Content Include="LICENSE.md" />
     <Content Include="README.md" />
     <None Include="Properties\PublishProfiles\NormSoftwareEngineer.pubxml" />
+    <None Include="Properties\PublishProfiles\TestNorm.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
